@@ -1,0 +1,27 @@
+# Credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Python and notebooks
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Generated indexes, caches and user conversations
+.gachon_rag/
+answers.json
+run_metrics.json
+questions.json
+*.log
+
+# Editor and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
